@@ -1,0 +1,19 @@
+/* Adicione este CSS ao seu arquivo global de estilos ou ao módulo de estilos do componente */
+.whatsapp-button {
+    position: fixed; /* Fixa o botão na tela */
+    bottom: 20px; /* Espaçamento do fundo da tela */
+    right: 20px; /* Espaçamento da borda direita da tela */
+    z-index: 1000; /* Garante que o botão fique acima de outros elementos */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none; /* Remover o fundo se necessário */
+    border: none; /* Remover borda se necessário */
+    cursor: pointer; /* Mudar o cursor para indicar um link clicável */
+  }
+  
+  .whatsapp-button img {
+    width: 80px; /* Largura do ícone */
+    height: 60px; /* Altura do ícone */
+  }
+  
