@@ -5,22 +5,18 @@
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta name="description"
-      content="Progworld" />
-    <meta name="keywords"
-      content="Progworld" />
+    <meta name="description" content="Progworld" />
+    <meta name="keywords" content="Progworld" />
     <meta property="og:title" content="Progworld" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://www.progworld.com.br/" />
-    <meta property="og:description"
-      content="Progworld" />
+    <meta property="og:description" content="Progworld" />
     <meta name="robots" content="index, follow" />
     <meta property="og:locale" content="en_EN" />
     <meta property="og:site_name" content="OficialProg" />
     <meta property="og:url" content="https://www.progworld.com.br/" />
     <meta property="twitter:title" content="Progworld" />
-    <meta property="twitter:description"
-      content="Progworld" />
+    <meta property="twitter:description" content="Progworld" />
     <meta property="twitter:site" content="https://www.progworld.com.br/" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
@@ -32,6 +28,20 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>Progworld</title>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-4QD1Z9B9VP"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-4QD1Z9B9VP");
+    </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
